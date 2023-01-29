@@ -1,5 +1,5 @@
-# GameStore_NivelacionEscabal
-En el siguiente codigo está mi intento por generar una tienda con carrito de compra que cumple los requisitos planteados. 
+# GameStore_NivelacionEscalab
+En el siguiente codigo está mi intento por generar una tienda con carrito de compra que cumpla los requisitos planteados en el proceso de Nivelación del Bootcamp Mern Full Stack de Escalab. 
 
 Rubrica de evaluación proyecto final modulo nivelación :
 
