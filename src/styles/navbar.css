@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-image: linear-gradient(rgba(46, 19, 168, 0.826), rgb(41, 21, 21));
+    z-index: 3;
+}
+.navbar-logo{
+    
+    width: 40px;
+    height: 40px; 
+    margin-left: 30px;
+    margin-top: 20px;
+
+    
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border-radius: 25px;
+
+    
+    
+}
+.navbar-logo:hover{
+    scale: 1.2;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 0px 10px rgb(28, 232, 82);
+       
+}
+.show-cart{
+    
+    cursor: pointer;
+    width: 100px;
+    scale: 1;
+    /* border: dashed 2px blue; */
+    display: flex;
+} 
+.show-cart img{
+    scale: 0.5;
+    align-items: flex-start;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+
+    
+}
+.show-cart img:hover{
+    scale: 0.6;
+    transition: 0.3s ease-in-out;
+}
+.number-cart{
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 4px;
+    top: 37px;
+    right: 14px;
+    position: absolute;
+}

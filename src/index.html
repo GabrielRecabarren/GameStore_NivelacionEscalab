@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Tienda de Videojuegos</title>
+    <link rel="shortcut icon" href="../public/assets/logoStore.png" />
+    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/productCards.css" />
+    <link rel="stylesheet" href="styles/modal.css" />
+    <link rel="stylesheet" href="styles/footer.css">
+</head>
+  <body>
+    <!-- Navbar -->
+
+    <nav class="navbar">
+      <figure>
+        <img class="navbar-logo" id="navbarLogo" src="../public/assets/logoStore.png" alt="" />
+      </figure>
+      <figure class="show-cart">
+        <img id="showCart" src="../public/assets/compra.png" alt="" /><span
+          id="cartNumber"
+          class="number-cart"
+        >
+        </span>
+      </figure>
+    </nav>
+
+    <!-- Header -->
+    <header class="header" >
+      <div class="header-contain">
+        <h1>Ludoland</h1>
+        <p>Tienda de Videojuegos</p>
+        <button id="goServices" >Ver Servicios</button>
+      </div>
+    </header>
+    <!-- Main Content -->
+    <main id="products">
+      <h2 class="product-title">Videojuegos</h2>
+      <section id="shopContent" class="shop-content"></section>
+    </main>
+    <!-- Modal Container -->
+    <div id="modalContainer" class="modal-container"></div>
+    <script src="js/app.js" type="module"></script>
+
+    <!-- Footer -->
+    <footer><h4>Ludoland</h4>
+        <figure>
+            <img  src="../public/assets/logoStore.png" alt="" />
+          </figure>    
+    </footer>
+     
+  </body>
+</html>

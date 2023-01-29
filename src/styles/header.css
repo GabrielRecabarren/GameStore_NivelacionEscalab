@@ -1,0 +1,44 @@
+.header{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(200, 22, 22, 0),rgba(95, 34, 170, 0.515)),url("../../public/assets/headerLudoland.jpg");
+}
+.header-contain{
+    text-align: center;
+    
+    padding: 20% 0;
+}
+.header h1{
+    
+    margin: 0;
+    color: rgb(235, 237, 235) ;
+    text-shadow: 15px 5px 3px rgba(182, 14, 14, 0.616);
+    font-size: 150px;
+    font-weight: bold;
+}
+.header p {
+    font-size: 60px;
+    color: whitesmoke;
+    opacity: 0.7;
+    text-shadow: 15px 5px 3px rgba(182, 14, 14, 0.616);
+
+}
+.header button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 500px;
+    height: 60px;
+}
+
+.header button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    box-shadow: 15px 5px 3px rgba(182, 14, 14, 0.616), 0 17px 50px 0 rgba(0,0,0,0.19);
+    text-shadow: 15px 5px 3px rgba(182, 14, 14, 0.616);
+
+}
